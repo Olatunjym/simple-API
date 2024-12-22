@@ -1,0 +1,17 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore sensitive variables
+terraform.tfvars
+
+# Ignore log files
+*.log
+
+# Ignore large binaries
+*.exe
+*.zip
+*.tar.gz
+*.log
